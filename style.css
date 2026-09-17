@@ -19,13 +19,13 @@ universal--> *
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color:rgb(148, 93, 4);
-    color:rgb(185, 185, 37);
+    background-color:rgb(111, 81, 47);
+    color:rgb(250, 212, 160);
 }
 
 html{
-    font-family: monospace;
-    font-size: 14px;
+    font-family: helvetica;
+    font-size: 17px;
 }
 
 h1, h2
@@ -70,7 +70,8 @@ header figure img
 
 header nav{ 
     width:80%;
-    border : 1px solid rgb(198, 141, 217);
+    border : 3px dotted rgb(43, 28, 5);
+    font-size: 20px;
 }
 
 header nav ul{
@@ -92,7 +93,7 @@ header nav li{
 
 section 
 {
-    border-top: 1px solid gray;
+    border-top: 1px solid rgb(239, 208, 155);
     margin-bottom: 1em;
     /*em unidad de medida relativa.
       el tamano en pixels es relativo al tamano 
@@ -114,9 +115,9 @@ section
 {
     position: absolute;
     padding: 15px;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(83, 63, 13, 0.6);
     border-radius: 10px;
-    box-shadow: 5px 5px 3px burlywood;
+    box-shadow: 5px 5px 3px rgb(240, 201, 150);
 }
 
 #hero #background-hero img
@@ -135,8 +136,8 @@ section
 { 
     display: inline-block;
     width: 200px;
-    background-color: green;
-    color: antiquewhite;
+    background-color: rgb(212, 157, 76);
+    color: rgb(55, 35, 17);
     padding: 5px;
     margin: 20px;
     text-align: center;
