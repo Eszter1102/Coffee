@@ -1,0 +1,219 @@
+/*Esto es un comentario en CSS*/
+
+/*sintaxis regla CSS:
+
+tipo_selector
+{propiedad:valor;
+propiedad:valor;
+}
+*/
+
+
+/*Tipo de selectores
+elemento--> etiquetas HTML
+id--> #nombre_id
+class--> .nombre_class
+universal--> *
+*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(148, 93, 4);
+    color:rgb(185, 185, 37);
+}
+
+html{
+    font-family: monospace;
+    font-size: 14px;
+}
+
+h1, h2
+{
+   text-align: center; 
+}
+
+a
+{
+    text-decoration:none;
+}
+
+body 
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 800px;
+    max-width: 1280px;
+}
+
+/*Header*/
+
+header
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+header figure
+{ 
+    width:80px;
+}
+
+header figure img
+{
+    width:100%;
+}
+
+header nav{ 
+    width:80%;
+    border : 1px solid rgb(198, 141, 217);
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right:10px;
+}
+
+header nav li{ 
+    padding: 5px;
+}
+/*Fin header*/
+
+/*main*/
+/*selector de id
+#nombreId
+*/
+
+section 
+{
+    border-top: 1px solid gray;
+    margin-bottom: 1em;
+    /*em unidad de medida relativa.
+      el tamano en pixels es relativo al tamano 
+      de la fuente de contenedor padre.
+      ex: font-size :16px (elemento padre)
+      1em=16px*/
+}
+
+#hero
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero #text-hero
+{
+    position: absolute;
+    padding: 15px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px burlywood;
+}
+
+#hero #background-hero img
+{
+    width: 100%;
+    align-items: center;
+    padding: 50px;
+}
+
+#hero .button-container
+{
+    text-align: center;
+}
+
+#hero .button-hero
+{ 
+    display: inline-block;
+    width: 200px;
+    background-color: green;
+    color: antiquewhite;
+    padding: 5px;
+    margin: 20px;
+    text-align: center;
+}
+/*Fin section hero*/
+
+/*fin section blog*/
+#blog
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#blog .article-blog
+{
+    display: flex;
+    width: 90%;
+    border: 2px solid sandybrown;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+#blog .article-blog figure
+{
+    width: 50%;
+    margin: 10px;
+}
+
+#blog .article-blog figure img{
+    width: 100%;
+}
+
+/* Reviews section */
+#reviews
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reviews .article-blog
+{
+    display: flex;
+    width: 90%;
+    border: 2px solid sandybrown;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+#reviews .leave-review
+{
+    width: 90%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Footer / About us */
+#aboutus
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#aboutus #contact
+{
+    text-align: center;
+}
+
+#aboutus #social-networks
+{
+    text-align: center;
+}
+
+#aboutus #social-networks ul
+{
+    list-style: none;
+}
+/*fin main*/
